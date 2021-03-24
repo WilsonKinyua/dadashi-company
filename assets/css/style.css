@@ -1,7 +1,7 @@
 /* Theme Description
 -------------------------------------------------
 
-	  Theme Name: Microfinance
+	  Theme Name: dadashi
 	  Author: Wilson Kinyua
 	  Support: wilsonkinyuam@gmail.com
 	  Description:
@@ -1718,9 +1718,9 @@ hr {
 }
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-.pt-160 {
+/* .pt-160 {
   padding-top: 160px;
-}
+} */
 
 /* line 506, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pt-165 {
@@ -1914,9 +1914,9 @@ hr {
 }
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-.pb-150 {
-  padding-bottom: 150px;
-}
+  /* .pb-150 {
+    padding-bottom: 150px;
+  } */
 
 /* line 513, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .pb-155 {
@@ -2567,23 +2567,23 @@ hr {
 /*-- Section Padding -- */
 /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 .section-padding2 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
-  .section-padding2 {
+  /* .section-padding2 {
     padding-top: 200px;
     padding-bottom: 200px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 714, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
