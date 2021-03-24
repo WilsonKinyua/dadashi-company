@@ -8,14 +8,14 @@
         Developed and managed by Developer Wilson
         Reach me through email: wilsonkinyuam@gmail.com for any question or something
         Phone Number: +254717255460
-        month - Jan 2021
+        month - mar 2021
     =======================================================================================
 
     -->
 
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title> Sofepac</title>
+  <title> Dadashi Company</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="#">
@@ -44,8 +44,8 @@
       <div class="preloader-inner position-relative">
         <div class="preloader-circle"></div>
         <div class="preloader-img pere-text">
-          {{-- <img style="height: 1px" src="{{ asset('assets_homepage/imgd/logo/newlogo.jpg')}}" alt=""> --}}
-         <h4 style="font-weight: 700"> Sofepac</h4>
+          {{-- <img style="height: 1px" src="{{ asset('assets_homepage/imgd/logo/logoo.png')}}" alt=""> --}}
+         <h4 style="font-weight: 700"> Dadashi </h4>
         </div>
       </div>
     </div>
@@ -61,8 +61,8 @@
             <div class="col-xl-2 col-lg-2 col-md-1">
               <div class="logo">
                 <a href="{{ route('home.page') }}">
-                    <img style="height: 80px" src="{{ asset('assets_homepage/img/logo/newlogo.jpg')}}" alt="">
-                    {{-- <h1 style="font-family: 'Rufina', serif; font-weight: 700; text-transform:uppercase; color: #000a2d;">Sofepac</h1> --}}
+                    <img style="height: 80px" src="{{ asset('assets_homepage/img/logo/logoo.png')}}" alt="">
+                    {{-- <h1 style="font-family: 'Rufina', serif; font-weight: 700; text-transform:uppercase; color: #000a2d;">Dadashi</h1> --}}
                 </a>
               </div>
             </div>
@@ -85,7 +85,7 @@
                         <li><a href="{{ route('company.services') }}">Services</a>
                         <ul class="submenu">
                             <li><a href="{{ route('company.services') }}">Our Services</a></li>
-                            <li><a href="{{ route('company.product')}}">Product</a></li>
+                            {{-- <li><a href="{{ route('company.product')}}">Product</a></li> --}}
                         </ul>
                       </li>
                       <li><a href="{{ route('company.contact') }}">Contact</a></li>
@@ -177,8 +177,9 @@
               <div class="footer-copy-right">
                 <p>
                   Copyright &copy;
-                  <script>document.write(new Date().getFullYear());</script> All Rights Reserved |  by <a href="https://wezaprosoft.com/"
-                    target="_blank">Weza Prosoft Limited</a>
+                  <script>document.write(new Date().getFullYear());</script> All Rights Reserved
+                  {{-- |  by <a href="https://wezaprosoft.com/"
+                    target="_blank">Weza Prosoft Limited</a> --}}
                     {{-- <i class="fa fa-heart" aria-hidden="true"></i> --}}
                 </p>
               </div>

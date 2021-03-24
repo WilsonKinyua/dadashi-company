@@ -32,7 +32,7 @@
             <div class="about-caption mb-50">
 
               <div class="section-tittle mb-35">
-                <span> Contexte </span>
+                {{-- <span> Contexte </span> --}}
                 <h2> {!! $about->description ?? '' !!} </h2>
               </div>
 
@@ -52,29 +52,7 @@
               {{-- <a href="{{ route('company.apply') }}" class="btn">Apply for Loan</a> --}}
             </div>
           </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="about-caption mb-50">
 
-              <div class="section-tittle mb-35">
-                <span>Vision</span>
-                <h2> {!! $about->vision ?? '' !!} </h2>
-              </div>
-
-
-              {{-- <a href="{{ route('company.apply') }}" class="btn">Apply for Loan</a> --}}
-            </div>
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="about-caption mb-50">
-
-              <div class="section-tittle mb-35">
-                <span>Our Goals</span>
-                <h2> {!! $about->ourgoals ?? '' !!} </h2>
-              </div>
-
-              {{-- <a href="{{ route('company.apply') }}" class="btn">Apply for Loan</a> --}}
-            </div>
-          </div>
           {{-- <div class="col-lg-6 col-md-12">
 
             <div class="about-img ">
@@ -91,39 +69,6 @@
 
     @endforeach
 
-
-    @foreach ($whyChooseOurCompanies as $key => $choose)
-
-    <div class="support-company-area section-padding3 fix">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="support-location-img mb-50">
-                @if($choose->file)
-                    <img src="{{ asset($choose->file) }}">
-                @endif
-              <div class="support-img-cap">
-                <span>Since 2020</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="right-caption">
-
-              <div class="section-tittle">
-                <span>Why Choose Our Company</span>
-                <h2>{{ $choose->title ?? '' }}</h2>
-              </div>
-              <div class="support-caption">
-                <p>{!! $choose->description ?? '' !!}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    @endforeach
 
 
     {{-- <div class="application-area pt-150 pb-140" data-background="{{ asset('assets_homepage/img/gallery/section_bg03.jpg')}}">
